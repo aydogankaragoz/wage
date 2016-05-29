@@ -1,0 +1,24 @@
+Running main() from gtest_main.cc
+[==========] Running 6 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 3 tests from EmployeeTest
+[ RUN      ] EmployeeTest.NoExtraHours
+[       OK ] EmployeeTest.NoExtraHours (0 ms)
+[ RUN      ] EmployeeTest.ExtraHours
+[       OK ] EmployeeTest.ExtraHours (0 ms)
+[ RUN      ] EmployeeTest.ExtraExtraHours
+[       OK ] EmployeeTest.ExtraExtraHours (0 ms)
+[----------] 3 tests from EmployeeTest (0 ms total)
+
+[----------] 3 tests from ManagerTest
+[ RUN      ] ManagerTest.NoExtraHours
+[       OK ] ManagerTest.NoExtraHours (0 ms)
+[ RUN      ] ManagerTest.ExtraHours
+[       OK ] ManagerTest.ExtraHours (0 ms)
+[ RUN      ] ManagerTest.ExtraExtraHours
+[       OK ] ManagerTest.ExtraExtraHours (0 ms)
+[----------] 3 tests from ManagerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 2 test cases ran. (0 ms total)
+[  PASSED  ] 6 tests.
